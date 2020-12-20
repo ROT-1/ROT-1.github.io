@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset= "UTF-8">
+	<title>ROT1</title>
+	<meta name = "viewport" content= "width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content = "ie=edge">
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+		}
+
+		.flex {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.center {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			text-align: center;
+			margin: 0 auto;
+		}
+
+		.half_page_block {
+			width: 40%;
+		}
+
+		#top_bar_container {
+			min-height: 50px;
+			background: #87cefa;
+			padding: 20px 50px;
+		}
+
+		#about_container {
+			min-height: 200px;
+			padding: 20px 50px;
+		}
+
+		#why_container {
+			min-height: 200px;
+			padding: 20px 50px;
+			background: #87cefa;
+		}
+
+		#desc_container {
+			flex-wrap: wrap;
+			min-height: 200px;
+			padding: 20px 50px;
+		}
+
+		#authors_container {
+			flex-wrap: wrap;
+			min-height: 200px;
+			padding: 20px 50px;
+			background: #87cefa;
+		}
+
+		html {
+			scroll-behavior: smooth;
+		}
+	</style>
+</head>
+<body>
+		
+	<div id="top_bar_container" class="flex">
+		<div class = "logo">
+                
+			<img src = "logoo.png" alt = "logo" width="150xp"> 
+	</div>
+		<div>
+			<a href="#desc_container"><font size="5" face="comic sans ms">Описание шифра</font></a> </div>
+		<div>
+			<a href="#desc_container"><font size="5" face="comic sans ms">Авторы</font></a>
+		</div>
+	</div>
+
+	<div id="about_container" class="flex">
+		<div class="half_page_block">
+			<div>
+				<h2 align ="center"><font size="5" face="comic sans ms">Что такое шифр</font></h2>
+			</div>
+			
+		</div>
+		<div class="half_page_block">
+			<p align ="center"> <font size="5" face="comic sans ms">Шифр — система обратимых преобразований, зависящая от некоторого секретного параметра (ключа) и предназначенная для обеспечения секретности передаваемой информации.</font></p>
+		</div>
+	</div>
+
+	<div id="why_container" class="flex">
+		<div class="half_page_block">
+			<p align ="center"><font size="5" face="comic sans ms">Для сохранения в тайне какой-либо личной информации.</font></p>
+		</div>
+		<div class="half_page_block">
+			<h2 align ="center"><font size="5" face="comic sans ms">Почему нужно шифровать свои данные</font></h2>
+		</div>
+	</div>
+
+	<div id="desc_container" class="flex">
+		
+		<div class="center">
+			<h2><font size="5" face="comic sans ms">Описание РОТ1</font></h2>
+		</div>
+		
+		<div class="center">
+			<font size="5" face="comic sans ms">Этот шифр известен многим детям. Ключ прост: каждая буква заменяется на следующую за ней в алфавите. Так, A заменяется на B, B на C, и т.д. «ROT1» значит «ROTate 1 letter forward through the alphabet» (англ. «сдвиньте алфавит на одну букву вперед»). Сообщение «I know what you did last summer» станет «J lopx xibu zpv eje mbtu tvnnfs». Этот шифр весело использовать, потому что его легко понять и применять, но его так же легко и расшифровать. Из-за этого его нельзя использовать для серьезных нужд, но дети с радостью «играют» с его помощью.</font> 
+		</div>
+	
+		<div class="center" style="width: 100%">
+			
+				<img src = "proga.png" alt = "proga" width="350xp" > 
+			
+		</div>
+
+		<div class="center">
+			<button>
+				<div class = "butons">
+                	<a class="buttons" href='#'>Download</a>
+				</div>
+			</button>
+		</div>
+		
+	</div>
+
+	<div id="authors_container" class="flex">
+		<div><h2><font size="5" face="comic sans ms">Авторы</font></h2></div>
+		<div class = "block_1">
+			<h3 class = "name"><font size="5" face="comic sans ms">Усольцева Ольга</font></h3>
+			<p class = "sub_name"><font size="5" face="comic sans ms">Веб-дизайнер</font></p>
+		</div>
+		<div class = "block_2">
+			<h3 class = "name"><font size="5" face="comic sans ms">Буянтуев Данил</font></h3>
+			<p class = "sub_name"><font size="5" face="comic sans ms">Разработчик</font></p>
+		</div>
+	</div>
+
+</body>
+</html>
